@@ -233,6 +233,11 @@ input, select, textarea {
 			width: 900px;
 		}
 
+		.container .row {
+			display: flex;
+			justify-content: center;
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1935,6 +1940,8 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+			display: flex;
+			justify-content: center;
 		}
 
 /* Icons */
@@ -2001,6 +2008,8 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			display: flex;
+			justify-content: center;
 		}
 
 		.wrapper.style3 {
