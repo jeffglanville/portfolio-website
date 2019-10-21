@@ -1939,7 +1939,8 @@ input, select, textarea {
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
-			width: auto;
+			width: 24rem;
+			height: 15rem;
 			display: flex;
 			justify-content: center;
 		}
