@@ -109,3 +109,120 @@
 </body>
 
 </html>
+
+CSS STARTS HERE!!!
+
+#navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+#navbar .logo {
+    margin-bottom: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.top-content img {
+    width: 90%;
+    margin-left: 5rem;
+}
+
+.top-content .services {
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.child {
+    border: 1px solid black;
+    width: 45%;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    background-color: lightgray;
+    padding-bottom: 1rem;
+}
+
+.child h2, p {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.child button {
+    width: 20%;
+    height: 25%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: white;
+}
+
+.child1 {
+    border: 1px solid black;
+    width: 45%;
+    background-color: lightgray;
+    margin-right: 5rem;
+}
+
+.child1 h2, p {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.child1 button {
+    width: 20%;
+    height: 25%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: white;
+}
+
+.bottom-content {
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.listimg {
+    width: 90%;
+    margin-left: 5rem;
+    border-top: 1px solid black;
+}
+
+.facts {
+    width: 82%;
+    padding-top: 2rem;
+}
+
+ul li {
+    margin-left: 1rem;
+    list-style-type: square;
+    padding-top: 1rem;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
