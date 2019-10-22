@@ -1945,6 +1945,10 @@ input, select, textarea {
 			justify-content: center;
 		}
 
+		.box.style2 a {
+			text-decoration: none;
+		}
+
 /* Icons */
 
 	.icon {
